@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<ScrollView
+  className="dashboard"
+  indicatorStyle="white"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Connect(PMNavigationBar)
+      props={Object {}}
+      rightButton={<View />}
+      title="Dashboard.dashboardTitle"
+    />
+    <Themed.Card
+      containerStyle={
+        Object {
+          "marginBottom": 15,
+        }
+      }
+      title="Dashboard.dashboardTitle"
+      titleStyle={
+        Object {
+          "color": "#3c3c3c",
+          "textAlign": "left",
+        }
+      }
+    >
+      <Text>
+        Welcome to MobileCoach!
+      </Text>
+      <Text>
+        Below, you will find your progress. Each star corresponds to task completion for a single day.
+      </Text>
+    </Themed.Card>
+    <View
+      style={
+        Object {
+          "flex": 2,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "resizeMode": "stretch",
+            "width": 55,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 200,
+            "justifyContent": "center",
+            "left": 100,
+            "marginTop": 20,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "bottom": 130,
+            "color": "white",
+            "fontSize": 50,
+            "fontWeight": "bold",
+            "left": 0,
+            "textAlign": "center",
+          }
+        }
+      >
+        79
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
