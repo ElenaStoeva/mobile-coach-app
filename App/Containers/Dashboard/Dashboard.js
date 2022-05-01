@@ -97,7 +97,8 @@ class Dashboard extends Component {
   /** [render] is the entry point of [Dashboard.js]. */
   render() {
     // this.server_retrieve();
-    const { openURL } = this.props.route.params.screenProps;
+    // what is this?
+    // const { openURL } = this.props.route.params.screenProps;
     var paths = [];
 
     for (var i = 0; i < 7; i++) {
