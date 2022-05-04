@@ -2,7 +2,6 @@
 
 exports[`renders 1`] = `
 <ScrollView
-  className="dashboard"
   indicatorStyle="white"
   style={
     Object {
