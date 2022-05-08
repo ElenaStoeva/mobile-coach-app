@@ -84,11 +84,11 @@ export default {
       onboardingURL: '---',
     },
     pushNotification: {
-      maximumPushMessagesWhenInactive: 20,
+      maximumPushMessagesWhenInactive: 5,
       androidChannelId: 'default',
       androidChannelName: 'Default push channel',
       secret: '12345abcd',
-      tokenURL: 'https://workshop-cdhi.ethz.ch/MC/push/notification/'
+      tokenURL: 'https://mobilecoach.coecis.cornell.edu/MC/push/notification/'
     },
     serverSync: {
       useLocalServer: false,
@@ -105,9 +105,9 @@ export default {
       localDeepstreamURL: 'ws://10.0.2.2:6020/deepstream',
       localRestURL: 'http://10.0.2.2:8080/MC/api/v02/',
       localMediaURL: 'http://10.0.2.2:8080/MC/files/',
-      remoteDeepstreamURL: 'wss://mobilecoach-staging.coecis.cornell.edu/deepstream',
-      remoteRestURL: 'https://mobilecoach-staging.coecis.cornell.edu/MC/api/v02/',
-      remoteMediaURL: 'https://mobilecoach-staging.coecis.cornell.edu/MC/files/',
+      remoteDeepstreamURL: 'wss://mobilecoach.coecis.cornell.edu/deepstream',
+      remoteRestURL: 'https://mobilecoach.coecis.cornell.edu/MC/api/v02/',
+      remoteMediaURL: 'https://mobilecoach.coecis.cornell.edu/MC/files/',
       // Whether or not user uploads are protected with auth-tokens
       mediaUploadsWithAuthenticiation: true,
     },
